@@ -116,6 +116,13 @@ q {
     justify-content: center;
 }
 
+.containermain {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
 blockquote:before,
 blockquote:after,
 q:before,
