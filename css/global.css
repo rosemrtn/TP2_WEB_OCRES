@@ -109,6 +109,7 @@ h1 {
     border-bottom: 1px solid #e1e6e9;
     margin-bottom: 20px;
     flex-direction: line;
+    justify-content: space-between;
 }
 
 .stats-links span,
@@ -124,9 +125,14 @@ h1 {
     font-size: 12px;
     font-weight: normal;
     color: #4b5c66;
-    justify-self: left;
 }
 
+.hautalbum {
+
+    display: flex;
+    flex-direction: line;
+    justify-content: space-between;
+}
 
 h2 {
     font-size: 20px;
@@ -166,6 +172,7 @@ input.submit {
     box-shadow: 1px 1px #d5d5d5;
     background: url("../img/icon/station.png") no-repeat 8px;
     transition: all 0.4s;
+    left: 0px;
 }
 
 .station:hover {
