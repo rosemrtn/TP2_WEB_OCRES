@@ -11,6 +11,7 @@
 
 body {
     background: linear-gradient(to bottom, #efefef, white) no-repeat;
+    flex-direction: line;
 }
 
 a {
@@ -101,11 +102,13 @@ h1 {
 
 
 .stats-links {
+    display: flex;
     color: #4b5c66;
     font-size: 12px;
     padding: 15px 0px 10px 0px;
     border-bottom: 1px solid #e1e6e9;
     margin-bottom: 20px;
+    flex-direction: line;
 }
 
 .stats-links span,
@@ -121,7 +124,9 @@ h1 {
     font-size: 12px;
     font-weight: normal;
     color: #4b5c66;
+    justify-self: left;
 }
+
 
 h2 {
     font-size: 20px;
@@ -210,6 +215,7 @@ nav.browse a,
 nav.music a {
     padding-left: 20px;
     padding-top: 2px;
+    width: 100px;
 }
 
 nav a.heavy {

@@ -114,15 +114,15 @@ q {
 .container {
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: line;
 }
 
-.containermain {
+.containmain {
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
-
+    flex-direction: line;
+    justify-content: left;
 }
+
 
 blockquote:before,
 blockquote:after,
