@@ -115,12 +115,14 @@ q {
     display: flex;
     justify-content: center;
     flex-direction: line;
+    width: 1500px;
 }
 
 .containmain {
     display: flex;
     flex-direction: line;
     justify-content: left;
+    justify-content: ;
 }
 
 

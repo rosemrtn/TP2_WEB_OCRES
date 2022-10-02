@@ -227,6 +227,7 @@ nav.music a {
 
 nav a.heavy {
     background: url("../img/icon/heavy.png") no-repeat 0px;
+    flex-direction: line;
 }
 
 nav a.recent {
